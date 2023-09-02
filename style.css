@@ -1,0 +1,79 @@
+/* p {
+  color: purple;
+} */
+
+/* basic selectors */
+
+/* # for id  */
+/* #fifth {
+  color: red;
+} */
+
+/* . for class */
+/* .pg {
+  color: yellow;
+  background: black;
+} */
+
+/* Descendant (Space) */
+
+/* section p {
+  color: red;
+} */
+
+/* child (>) */
+/* section > p {
+  color: red;
+} */
+
+/* Adjacent (+) */
+
+/* section + div {
+  color: blue;
+} */
+
+/* Siblings (~) */
+/* section ~ div {
+  color: cyan;
+} */
+
+/* section > div > p {
+  background: black;
+  color: wheat; 
+} */
+
+/* [href]{
+    color: black;
+    text-decoration: none;
+} */
+
+/* a[href]{
+    
+    text-decoration: none;
+} */
+
+/* [href="google.com"] {
+  color: red;
+  font-size: 32px;
+} */
+
+/* Pseudo-element */
+
+/* p::first-letter {
+  font-size: 46px;
+} */
+
+/* p::first-line {
+  background: yellow;
+} */
+
+/* Pseudo-class */
+
+/* a:hover {
+  color: green;
+  font-size: 20px;
+} */
+
+p:nth-child(odd) {
+  color: red;
+}
